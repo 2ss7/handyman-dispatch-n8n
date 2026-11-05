@@ -1,7 +1,15 @@
 {
-  "request_id": "demo-001",
-  "service": "Сборка мебели",
-  "area": "Brooklyn",
-  "preferred_time": "2026-11-10 14:00",
-  "details": "Нужно собрать шкаф и закрепить полку"
+  "body": {
+    "About_your_projects": "I need help mounting a wall cabinet and a curtain rod.",
+    "Name": "Example Customer",
+    "Phone": "+1 (202) 555-0100",
+    "Address": "Example St, Brooklyn NY",
+    "Zip_code": "00000",
+    "Preferred_time_window": "Weekend",
+    "Checkbox": "yes",
+    "tranid": "demo:000001",
+    "COOKIES": "",
+    "formid": "demo-form",
+    "File": "https://example.invalid/attachment.jpg"
+  }
 }
