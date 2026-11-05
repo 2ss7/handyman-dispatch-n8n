@@ -1,5 +1,0 @@
-.DS_Store
-.env
-*.local.json
-*credentials*.json
-*execution*.json
