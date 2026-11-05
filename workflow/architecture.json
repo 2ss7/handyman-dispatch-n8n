@@ -1,0 +1,1237 @@
+{
+  "name": "Handyman request dispatch - architecture only",
+  "nodes": [
+    {
+      "parameters": {},
+      "id": "node-001",
+      "name": "Sticky Note",
+      "type": "n8n-nodes-base.stickyNote",
+      "typeVersion": 1,
+      "position": [
+        5056,
+        66080
+      ]
+    },
+    {
+      "parameters": {},
+      "id": "node-002",
+      "name": "Sticky Note1",
+      "type": "n8n-nodes-base.stickyNote",
+      "typeVersion": 1,
+      "position": [
+        3792,
+        67328
+      ]
+    },
+    {
+      "parameters": {},
+      "id": "node-003",
+      "name": "If5",
+      "type": "n8n-nodes-base.if",
+      "typeVersion": 2.3,
+      "position": [
+        3200,
+        23440
+      ]
+    },
+    {
+      "parameters": {},
+      "id": "node-004",
+      "name": "Sticky Note2",
+      "type": "n8n-nodes-base.stickyNote",
+      "typeVersion": 1,
+      "position": [
+        3472,
+        68368
+      ]
+    },
+    {
+      "parameters": {},
+      "id": "node-005",
+      "name": "Advanced request1",
+      "type": "n8n-nodes-base.telegram",
+      "typeVersion": 1.2,
+      "position": [
+        3872,
+        23440
+      ]
+    },
+    {
+      "parameters": {},
+      "id": "node-006",
+      "name": "Switch2",
+      "type": "n8n-nodes-base.switch",
+      "typeVersion": 3.4,
+      "position": [
+        2752,
+        23344
+      ]
+    },
+    {
+      "parameters": {},
+      "id": "node-007",
+      "name": "check @",
+      "type": "n8n-nodes-base.googleSheets",
+      "typeVersion": 4.7,
+      "position": [
+        2976,
+        23440
+      ]
+    },
+    {
+      "parameters": {},
+      "id": "node-008",
+      "name": "Edit a text message3",
+      "type": "n8n-nodes-base.telegram",
+      "typeVersion": 1.2,
+      "position": [
+        2976,
+        23248
+      ]
+    },
+    {
+      "parameters": {},
+      "id": "node-009",
+      "name": "offered7",
+      "type": "n8n-nodes-base.googleSheets",
+      "typeVersion": 4.7,
+      "position": [
+        4096,
+        23248
+      ]
+    },
+    {
+      "parameters": {},
+      "id": "node-010",
+      "name": "offered5",
+      "type": "n8n-nodes-base.googleSheets",
+      "typeVersion": 4.7,
+      "position": [
+        4096,
+        23632
+      ]
+    },
+    {
+      "parameters": {},
+      "id": "node-011",
+      "name": "Statuses2",
+      "type": "n8n-nodes-base.switch",
+      "typeVersion": 3.4,
+      "position": [
+        2752,
+        24672
+      ]
+    },
+    {
+      "parameters": {},
+      "id": "node-012",
+      "name": "Switch4",
+      "type": "n8n-nodes-base.switch",
+      "typeVersion": 3.4,
+      "position": [
+        3200,
+        25072
+      ]
+    },
+    {
+      "parameters": {},
+      "id": "node-013",
+      "name": "status busy sheets2",
+      "type": "n8n-nodes-base.googleSheets",
+      "typeVersion": 4.7,
+      "position": [
+        2976,
+        24304
+      ]
+    },
+    {
+      "parameters": {},
+      "id": "node-014",
+      "name": "status sheets4",
+      "type": "n8n-nodes-base.googleSheets",
+      "typeVersion": 4.7,
+      "position": [
+        2976,
+        25072
+      ]
+    },
+    {
+      "parameters": {},
+      "id": "node-015",
+      "name": "Yes, I am busy2",
+      "type": "n8n-nodes-base.telegram",
+      "typeVersion": 1.2,
+      "position": [
+        3424,
+        24496
+      ]
+    },
+    {
+      "parameters": {},
+      "id": "node-016",
+      "name": "Yes, I am free2",
+      "type": "n8n-nodes-base.telegram",
+      "typeVersion": 1.2,
+      "position": [
+        3424,
+        25456
+      ]
+    },
+    {
+      "parameters": {},
+      "id": "node-017",
+      "name": "Switch5",
+      "type": "n8n-nodes-base.switch",
+      "typeVersion": 3.4,
+      "position": [
+        2752,
+        23920
+      ]
+    },
+    {
+      "parameters": {},
+      "id": "node-018",
+      "name": "Append row in sheet2",
+      "type": "n8n-nodes-base.googleSheets",
+      "typeVersion": 4.7,
+      "position": [
+        3648,
+        23632
+      ]
+    },
+    {
+      "parameters": {},
+      "id": "node-019",
+      "name": "Get row(s) in sheet6",
+      "type": "n8n-nodes-base.googleSheets",
+      "typeVersion": 4.7,
+      "position": [
+        2976,
+        23728
+      ]
+    },
+    {
+      "parameters": {},
+      "id": "node-020",
+      "name": "share phone number2",
+      "type": "n8n-nodes-base.telegram",
+      "typeVersion": 1.2,
+      "position": [
+        3424,
+        23632
+      ]
+    },
+    {
+      "parameters": {},
+      "id": "node-021",
+      "name": "If8",
+      "type": "n8n-nodes-base.if",
+      "typeVersion": 2.3,
+      "position": [
+        3200,
+        23728
+      ]
+    },
+    {
+      "parameters": {},
+      "id": "node-022",
+      "name": "status free sheets2",
+      "type": "n8n-nodes-base.googleSheets",
+      "typeVersion": 4.7,
+      "position": [
+        2976,
+        24688
+      ]
+    },
+    {
+      "parameters": {},
+      "id": "node-023",
+      "name": "Append or update row in sheet2",
+      "type": "n8n-nodes-base.googleSheets",
+      "typeVersion": 4.7,
+      "position": [
+        2976,
+        24112
+      ]
+    },
+    {
+      "parameters": {},
+      "id": "node-024",
+      "name": "Send a text message8",
+      "type": "n8n-nodes-base.telegram",
+      "typeVersion": 1.2,
+      "position": [
+        2976,
+        23920
+      ]
+    },
+    {
+      "parameters": {},
+      "id": "node-025",
+      "name": "Edit a text message6",
+      "type": "n8n-nodes-base.telegram",
+      "typeVersion": 1.2,
+      "position": [
+        2976,
+        24496
+      ]
+    },
+    {
+      "parameters": {},
+      "id": "node-026",
+      "name": "Edit a text message7",
+      "type": "n8n-nodes-base.telegram",
+      "typeVersion": 1.2,
+      "position": [
+        2976,
+        24880
+      ]
+    },
+    {
+      "parameters": {},
+      "id": "node-027",
+      "name": "You are already working with team2",
+      "type": "n8n-nodes-base.telegram",
+      "typeVersion": 1.2,
+      "position": [
+        3424,
+        24304
+      ]
+    },
+    {
+      "parameters": {},
+      "id": "node-028",
+      "name": "Buttons of request2",
+      "type": "n8n-nodes-base.switch",
+      "typeVersion": 3.4,
+      "position": [
+        2752,
+        25792
+      ]
+    },
+    {
+      "parameters": {},
+      "id": "node-029",
+      "name": "taken4",
+      "type": "n8n-nodes-base.googleSheets",
+      "typeVersion": 4.7,
+      "position": [
+        3200,
+        25264
+      ]
+    },
+    {
+      "parameters": {},
+      "id": "node-030",
+      "name": "cancel request2",
+      "type": "n8n-nodes-base.telegram",
+      "typeVersion": 1.2,
+      "position": [
+        2976,
+        25264
+      ]
+    },
+    {
+      "parameters": {},
+      "id": "node-031",
+      "name": "Format Italic Text5",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        2976,
+        25648
+      ]
+    },
+    {
+      "parameters": {},
+      "id": "node-032",
+      "name": "Format Italic Text6",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        2976,
+        26416
+      ]
+    },
+    {
+      "parameters": {},
+      "id": "node-033",
+      "name": "Send a text message9",
+      "type": "n8n-nodes-base.telegram",
+      "typeVersion": 1.2,
+      "position": [
+        3200,
+        26032
+      ]
+    },
+    {
+      "parameters": {},
+      "id": "node-034",
+      "name": "offered11",
+      "type": "n8n-nodes-base.googleSheets",
+      "typeVersion": 4.7,
+      "position": [
+        3424,
+        26032
+      ]
+    },
+    {
+      "parameters": {},
+      "id": "node-035",
+      "name": "status sheets5",
+      "type": "n8n-nodes-base.googleSheets",
+      "typeVersion": 4.7,
+      "position": [
+        2976,
+        26032
+      ]
+    },
+    {
+      "parameters": {},
+      "id": "node-036",
+      "name": "If10",
+      "type": "n8n-nodes-base.if",
+      "typeVersion": 2.3,
+      "position": [
+        2752,
+        26704
+      ]
+    },
+    {
+      "parameters": {},
+      "id": "node-037",
+      "name": "Request taken2",
+      "type": "n8n-nodes-base.telegram",
+      "typeVersion": 1.2,
+      "position": [
+        2976,
+        26800
+      ]
+    },
+    {
+      "parameters": {},
+      "id": "node-038",
+      "name": "taken5",
+      "type": "n8n-nodes-base.googleSheets",
+      "typeVersion": 4.7,
+      "position": [
+        2976,
+        26608
+      ]
+    },
+    {
+      "parameters": {},
+      "id": "node-039",
+      "name": "offered6",
+      "type": "n8n-nodes-base.googleSheets",
+      "typeVersion": 4.7,
+      "position": [
+        3648,
+        27024
+      ]
+    },
+    {
+      "parameters": {},
+      "id": "node-040",
+      "name": "Webhook1",
+      "type": "n8n-nodes-base.webhook",
+      "typeVersion": 2.1,
+      "position": [
+        2528,
+        27408
+      ]
+    },
+    {
+      "parameters": {},
+      "id": "node-041",
+      "name": "Wait1",
+      "type": "n8n-nodes-base.wait",
+      "typeVersion": 1.1,
+      "position": [
+        3648,
+        27408
+      ]
+    },
+    {
+      "parameters": {},
+      "id": "node-042",
+      "name": "If7",
+      "type": "n8n-nodes-base.if",
+      "typeVersion": 2.3,
+      "position": [
+        4096,
+        27408
+      ]
+    },
+    {
+      "parameters": {},
+      "id": "node-043",
+      "name": "Get row(s) in sheet4",
+      "type": "n8n-nodes-base.googleSheets",
+      "typeVersion": 4.7,
+      "position": [
+        3872,
+        27408
+      ]
+    },
+    {
+      "parameters": {},
+      "id": "node-044",
+      "name": "Send a text message6",
+      "type": "n8n-nodes-base.telegram",
+      "typeVersion": 1.2,
+      "position": [
+        4320,
+        27504
+      ]
+    },
+    {
+      "parameters": {},
+      "id": "node-045",
+      "name": "offered8",
+      "type": "n8n-nodes-base.googleSheets",
+      "typeVersion": 4.7,
+      "position": [
+        4544,
+        27504
+      ]
+    },
+    {
+      "parameters": {},
+      "id": "node-046",
+      "name": "Edit a text message5",
+      "type": "n8n-nodes-base.telegram",
+      "typeVersion": 1.2,
+      "position": [
+        4320,
+        27312
+      ]
+    },
+    {
+      "parameters": {},
+      "id": "node-047",
+      "name": "Get row(s) in sheet5",
+      "type": "n8n-nodes-base.googleSheets",
+      "typeVersion": 4.7,
+      "position": [
+        2976,
+        27408
+      ]
+    },
+    {
+      "parameters": {},
+      "id": "node-048",
+      "name": "offered9",
+      "type": "n8n-nodes-base.googleSheets",
+      "typeVersion": 4.7,
+      "position": [
+        3648,
+        27600
+      ]
+    },
+    {
+      "parameters": {},
+      "id": "node-049",
+      "name": "Send a text message7",
+      "type": "n8n-nodes-base.telegram",
+      "typeVersion": 1.2,
+      "position": [
+        3424,
+        27600
+      ]
+    },
+    {
+      "parameters": {},
+      "id": "node-050",
+      "name": "status=free1",
+      "type": "n8n-nodes-base.if",
+      "typeVersion": 2.3,
+      "position": [
+        3200,
+        27408
+      ]
+    },
+    {
+      "parameters": {},
+      "id": "node-051",
+      "name": "offered",
+      "type": "n8n-nodes-base.googleSheets",
+      "typeVersion": 4.7,
+      "position": [
+        3648,
+        27216
+      ]
+    },
+    {
+      "parameters": {},
+      "id": "node-052",
+      "name": "If",
+      "type": "n8n-nodes-base.if",
+      "typeVersion": 2.3,
+      "position": [
+        2752,
+        27408
+      ]
+    },
+    {
+      "parameters": {},
+      "id": "node-053",
+      "name": "Advanced request",
+      "type": "n8n-nodes-base.telegram",
+      "typeVersion": 1.2,
+      "position": [
+        3424,
+        27216
+      ]
+    },
+    {
+      "parameters": {},
+      "id": "node-054",
+      "name": "Get row(s) in sheet",
+      "type": "n8n-nodes-base.googleSheets",
+      "typeVersion": 4.7,
+      "position": [
+        3424,
+        23440
+      ]
+    },
+    {
+      "parameters": {},
+      "id": "node-055",
+      "name": "Get row(s) in sheet1",
+      "type": "n8n-nodes-base.googleSheets",
+      "typeVersion": 4.7,
+      "position": [
+        3648,
+        23440
+      ]
+    },
+    {
+      "parameters": {},
+      "id": "node-056",
+      "name": "Request skipped",
+      "type": "n8n-nodes-base.telegram",
+      "typeVersion": 1.2,
+      "position": [
+        3184,
+        25648
+      ]
+    },
+    {
+      "parameters": {},
+      "id": "node-057",
+      "name": "Request canceled",
+      "type": "n8n-nodes-base.telegram",
+      "typeVersion": 1.2,
+      "position": [
+        3200,
+        26416
+      ]
+    },
+    {
+      "parameters": {},
+      "id": "node-058",
+      "name": "Cancel confirm",
+      "type": "n8n-nodes-base.telegram",
+      "typeVersion": 1.2,
+      "position": [
+        2976,
+        26224
+      ]
+    },
+    {
+      "parameters": {},
+      "id": "node-059",
+      "name": "Skip confirm",
+      "type": "n8n-nodes-base.telegram",
+      "typeVersion": 1.2,
+      "position": [
+        2976,
+        25456
+      ]
+    },
+    {
+      "parameters": {},
+      "id": "node-060",
+      "name": "Delete a chat message",
+      "type": "n8n-nodes-base.telegram",
+      "typeVersion": 1.2,
+      "position": [
+        2976,
+        25840
+      ]
+    },
+    {
+      "parameters": {},
+      "id": "node-061",
+      "name": "Send a text message",
+      "type": "n8n-nodes-base.telegram",
+      "typeVersion": 1.2,
+      "position": [
+        4096,
+        23440
+      ]
+    },
+    {
+      "parameters": {},
+      "id": "node-062",
+      "name": "Send a text message1",
+      "type": "n8n-nodes-base.telegram",
+      "typeVersion": 1.2,
+      "position": [
+        3872,
+        23632
+      ]
+    },
+    {
+      "parameters": {},
+      "id": "node-063",
+      "name": "Telegram Trigger2",
+      "type": "n8n-nodes-base.telegramTrigger",
+      "typeVersion": 1.2,
+      "position": [
+        2512,
+        24688
+      ]
+    },
+    {
+      "parameters": {},
+      "id": "node-064",
+      "name": "Send a text message10",
+      "type": "n8n-nodes-base.telegram",
+      "typeVersion": 1.2,
+      "position": [
+        3136,
+        27648
+      ]
+    }
+  ],
+  "connections": {
+    "If5": {
+      "main": [
+        [
+          {
+            "node": "Get row(s) in sheet",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Advanced request1": {
+      "main": [
+        [
+          {
+            "node": "offered7",
+            "type": "main",
+            "index": 0
+          },
+          {
+            "node": "offered5",
+            "type": "main",
+            "index": 0
+          },
+          {
+            "node": "Send a text message",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Switch2": {
+      "main": [
+        [
+          {
+            "node": "Edit a text message3",
+            "type": "main",
+            "index": 0
+          }
+        ],
+        [
+          {
+            "node": "check @",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "check @": {
+      "main": [
+        [
+          {
+            "node": "If5",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Statuses2": {
+      "main": [
+        [
+          {
+            "node": "status busy sheets2",
+            "type": "main",
+            "index": 0
+          },
+          {
+            "node": "Edit a text message6",
+            "type": "main",
+            "index": 0
+          }
+        ],
+        [
+          {
+            "node": "status free sheets2",
+            "type": "main",
+            "index": 0
+          },
+          {
+            "node": "Edit a text message7",
+            "type": "main",
+            "index": 0
+          }
+        ],
+        [
+          {
+            "node": "status sheets4",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Switch4": {
+      "main": [
+        [
+          {
+            "node": "Yes, I am busy2",
+            "type": "main",
+            "index": 0
+          }
+        ],
+        [
+          {
+            "node": "Yes, I am free2",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "status sheets4": {
+      "main": [
+        [
+          {
+            "node": "Switch4",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Switch5": {
+      "main": [
+        [
+          {
+            "node": "Get row(s) in sheet6",
+            "type": "main",
+            "index": 0
+          }
+        ],
+        [
+          {
+            "node": "Append or update row in sheet2",
+            "type": "main",
+            "index": 0
+          },
+          {
+            "node": "Send a text message8",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Get row(s) in sheet6": {
+      "main": [
+        [
+          {
+            "node": "If8",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "share phone number2": {
+      "main": [
+        [
+          {
+            "node": "Append row in sheet2",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "If8": {
+      "main": [
+        [
+          {
+            "node": "share phone number2",
+            "type": "main",
+            "index": 0
+          }
+        ],
+        [
+          {
+            "node": "You are already working with team2",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Buttons of request2": {
+      "main": [
+        [
+          {
+            "node": "cancel request2",
+            "type": "main",
+            "index": 0
+          }
+        ],
+        [
+          {
+            "node": "Skip confirm",
+            "type": "main",
+            "index": 0
+          }
+        ],
+        [
+          {
+            "node": "Format Italic Text5",
+            "type": "main",
+            "index": 0
+          },
+          {
+            "node": "status sheets5",
+            "type": "main",
+            "index": 0
+          },
+          {
+            "node": "Delete a chat message",
+            "type": "main",
+            "index": 0
+          }
+        ],
+        [
+          {
+            "node": "Cancel confirm",
+            "type": "main",
+            "index": 0
+          }
+        ],
+        [
+          {
+            "node": "Format Italic Text6",
+            "type": "main",
+            "index": 0
+          },
+          {
+            "node": "status sheets5",
+            "type": "main",
+            "index": 0
+          },
+          {
+            "node": "Delete a chat message",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "cancel request2": {
+      "main": [
+        [
+          {
+            "node": "taken4",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Format Italic Text5": {
+      "main": [
+        [
+          {
+            "node": "Request skipped",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Format Italic Text6": {
+      "main": [
+        [
+          {
+            "node": "Request canceled",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Send a text message9": {
+      "main": [
+        [
+          {
+            "node": "offered11",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "status sheets5": {
+      "main": [
+        [
+          {
+            "node": "Send a text message9",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "If10": {
+      "main": [
+        [
+          {
+            "node": "Request taken2",
+            "type": "main",
+            "index": 0
+          },
+          {
+            "node": "taken5",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Webhook1": {
+      "main": [
+        [
+          {
+            "node": "If",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Wait1": {
+      "main": [
+        [
+          {
+            "node": "Get row(s) in sheet4",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "If7": {
+      "main": [
+        [
+          {
+            "node": "Send a text message6",
+            "type": "main",
+            "index": 0
+          },
+          {
+            "node": "Edit a text message5",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Get row(s) in sheet4": {
+      "main": [
+        [
+          {
+            "node": "If7",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Send a text message6": {
+      "main": [
+        [
+          {
+            "node": "offered8",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Get row(s) in sheet5": {
+      "main": [
+        [
+          {
+            "node": "status=free1",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Send a text message7": {
+      "main": [
+        [
+          {
+            "node": "offered9",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "status=free1": {
+      "main": [
+        [
+          {
+            "node": "Advanced request",
+            "type": "main",
+            "index": 0
+          }
+        ],
+        [
+          {
+            "node": "Send a text message7",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "If": {
+      "main": [
+        [
+          {
+            "node": "Get row(s) in sheet5",
+            "type": "main",
+            "index": 0
+          },
+          {
+            "node": "Send a text message10",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Advanced request": {
+      "main": [
+        [
+          {
+            "node": "offered",
+            "type": "main",
+            "index": 0
+          },
+          {
+            "node": "Wait1",
+            "type": "main",
+            "index": 0
+          },
+          {
+            "node": "offered6",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Get row(s) in sheet": {
+      "main": [
+        [
+          {
+            "node": "Get row(s) in sheet1",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Get row(s) in sheet1": {
+      "main": [
+        [
+          {
+            "node": "Advanced request1",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Send a text message8": {
+      "main": [
+        []
+      ]
+    },
+    "Append row in sheet2": {
+      "main": [
+        [
+          {
+            "node": "Send a text message1",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Telegram Trigger2": {
+      "main": [
+        [
+          {
+            "node": "Statuses2",
+            "type": "main",
+            "index": 0
+          },
+          {
+            "node": "Switch5",
+            "type": "main",
+            "index": 0
+          },
+          {
+            "node": "Switch2",
+            "type": "main",
+            "index": 0
+          },
+          {
+            "node": "Buttons of request2",
+            "type": "main",
+            "index": 0
+          },
+          {
+            "node": "If10",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "active": false,
+  "settings": {}
+}
